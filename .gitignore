@@ -1,2 +1,15 @@
-nlp_env/
+
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+
+# Ignore egg-info directories
+*.egg-info/
 src/textSummerizer.egg-info/
+
+# Ignore environment directories
+nlp_env/
+
+# Ignore other common patterns
+*.log
+*.tmp
